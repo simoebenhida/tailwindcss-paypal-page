@@ -1,0 +1,24 @@
+@tailwind preflight;
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.hero-image {
+    background-image: url('https://www.paypalobjects.com/digitalassets/c/website/marketing/emea/shared/merchant/emea_merchant_herobanner_latest.png');
+    background-size: 105%;
+}
+
+.blue-shadow {
+    background-color: #009cde;
+    background-image: radial-gradient(circle farthest-side at center bottom,#009cde,#003087 125%);
+}
+
+@tailwind components;
+
+@tailwind utilities;
